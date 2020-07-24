@@ -10,4 +10,4 @@ Minecraft Bedrock IP: bedrock.sidpatchy.com
 
 
 What should be posted on here?
-> Any major issues such as plugins not working, bugs including but not limited to duplication glitches, exploits, and suggestions on how to improve our server that don't fit in the #requests channel on the Discord.
+> Any major issues such as plugins not working, bugs including but not limited to duplication glitches, and exploits, as well as suggestions on how to improve our server that don't fit in the #requests channel on the Discord.
