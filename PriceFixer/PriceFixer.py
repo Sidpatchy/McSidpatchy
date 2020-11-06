@@ -28,6 +28,9 @@ sales = {}      # Dictionary for storing the amount made per item.
 
 # Extract economy logs
 for line in latestLog:
+    # If you use this it is in your best interest to use more criteria than this. I have included two that mean it will be safe-ish
+    # if a player discovers what you are using to verify that the line of the file is actually from essentials they could completely break this whole thing.
+    # Prices would be fine, however, a pathway to avoiding this whole script is very possible if a player discovers the criteria.
     if 'sold' in line and '[Essentials]' in line:
         line = line[46:]
         item = (line.partition('sold')[2]).split()[0]   # Store the item
